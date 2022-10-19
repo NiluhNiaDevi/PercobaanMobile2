@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NiluhNiaDevi">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Niluh Nia Devi"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:id="@+id/img_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/niadevi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/img_photo"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="26dp"
+        android:text="Seorang Mahasiswa di Universitas Tadulako yang bernama Niluh Nia Devi dengan NIM F55121058 berada pada jurusan Teknologi Informasi di kelas B, kelahiran Parigi 20 Mei 2003 yang sekarang berusia 19th yang berasal dari Morowali Utara "
+        android:textAlignment="center"/>
+
+</RelativeLayout>
